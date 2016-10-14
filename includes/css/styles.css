@@ -1,0 +1,130 @@
+#searchInput{
+   width:200px;
+   
+}
+.panels{
+   margin-top: 100px;
+}
+.panels-1{
+   margin-top: 20px;
+}
+.nav-things{
+   margin-top: 20px;
+   font-family: 'Coming Soon', cursive;
+   font-size: 25px;
+   
+}
+
+
+footer a{
+   color: white;
+   
+}
+body{
+   background-color: white;
+}
+.google-fonts{
+
+   font-family: 'Coming Soon', cursive;
+   text-align:justify;
+}
+.navbar-fixed-top{
+   background-color:brown
+}
+
+
+.carousel-caption{
+   font-size: 30px;
+}
+.carousel-caption h4{
+   font-size: 60px;
+}
+@media (max-width:480px){
+   #myCarousel .item {
+      height: 300px;
+      width: 100%;
+      
+   }
+
+   #slide1{
+      background: url(../../images/bullet1-small.jpg) top center no-repeat;
+   }
+   #slide2{
+      background: url(../../images/bullet2-small.jpg)top center no-repeat;
+   } 
+   #slide3{
+      background: url(../../images/bullet3-small.jpg)top center no-repeat;
+   }
+}
+
+@media (max-width:700px) {
+  #myCarousel .item {
+   height: 400px;   
+   width: 100%;
+   
+}
+
+#slide1{
+   background: url(../../images/bullet1-medium.jpg)top center no-repeat;
+}
+#slide2{
+   background: url(../../images/bullet2-medium.jpg) top center no-repeat;
+}
+#slide3{
+   background: url(../../images/bullet3-medium.jpg)top center no-repeat;
+}
+}
+
+@media (min-width:700px) {
+   #myCarousel .item {
+      height: 600px;   
+      width:100%;
+
+   }
+
+   #slide1{
+      background: url(../../images/bullet1-large.jpg)top center no-repeat;
+   }
+   #slide2{
+      background: url(../../images/bullet2-large.jpg)top center no-repeat;
+   }
+   #slide3{
+      background: url(../../images/bullet3-large.jpg)top center no-repeat;
+   }
+
+}
+.page-header{
+   margin-top: 20px;   
+}
+
+.page-header h1{
+   margin-top:20px;
+}
+
+.well{
+ margin-top: 50px;
+
+}
+
+#features{
+   margin-top: 20px;
+   text-align: center;
+}
+
+.tab-pane img{
+   margin-right: 20px;
+
+}
+footer{
+   background-color:brown;
+   text-align: justify;
+
+
+}
+footer li {
+   list-style: none;
+   text-decoration: none;
+   font-size:30px;
+   
+
+}

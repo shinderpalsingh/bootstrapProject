@@ -1,120 +1,97 @@
 <!DOCTYPE html>
 
-<html>
-<head>
+  <html>
+    <head>
+  <title> Bootstrap 3</title>
+   	<meta name="description" content="Learn how to code your first responsive website with the new Twitter Bootstrap 3.">
+   	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+   	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+   	<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+    <link rel="stylesheet" href="includes/css/font-awesome.min.css"/>
 
+    <link href="https://fonts.googleapis.com/css?family=Coming+Soon" rel="stylesheet">
+    <link rel="stylesheet" href="includes/css/styles.css">
+       </head>
 
-  <title>Code a Responsive Website with Twitter Bootstrap 3</title>
-  <meta name="description" content="Learn how to code your first responsive website with the new Twitter Bootstrap 3.">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
-  <link rel="stylesheet" href="includes/css/font-awesome.min.css"/>
-  <link href="https://fonts.googleapis.com/css?family=Coming+Soon" rel="stylesheet">
-  <link rel="stylesheet" href="includes/css/styles.css">
-  <script src="includes/js/modernizr-2.6.2.min.js"></script>
-  <script src="http://code.jquery.com/jquery.js"></script>    
-  <script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
-  <script src="bootstrap/js/bootstrap.min.js"></script>
-  <script src="includes/js/script.js"></script>
-</head>
+  <body>
 
-<body>
+    <header>
+      <nav class="navbar navbar-fixed-top navbar-default "> <!-- start nav-bar -->
+        <div class="container"> <!-- start container -->
+        
+        <button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
 
+        <a class="navbar-brand" href="/"><img src="images/royal.png" alt="image not found"></a>
 
- <div class="navbar navbar-fixed-top">
-  <div class="container">
+        <div class="navbar-collapse collapse navbar-responsive-collapse nav-things ">
+        <ul class="nav navbar-nav">
+         <li >
+          <a href="index.html">Home</a>
+        </li>
 
+       <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Motorcycles <strong class="caret"></strong></a>
 
-   <button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
-    <span class="icon-bar"></span>
-    <span class="icon-bar"></span>
-    <span class="icon-bar"></span>
-  </button>
+          <ul class="dropdown-menu">
+           <li>
+            <a href="#">Classic battle green</a>
+          </li>
 
-  <a class="navbar-brand" href="/"><img src="images/bullet.png" alt="image not found"></a>
+          <li>
+            <a href="#">Classic 350</a>
+          </li>
 
-  <div class="nav-collapse collapse navbar-responsive-collapse nav-things ">
-    <ul class="nav navbar-nav">
-     <li >
-      <a href="index1.html">Home</a>
+          <li>
+            <a href="#">Class 500</a>
+          </li>
+
+          <li class="divider"></li>
+
+          <li class="dropdown-header">Standard</li>
+
+          <li>
+            <a href="#">Standard 350</a>
+          </li>
+
+          <li>
+            <a href="#">standard 500</a>
+          </li>
+        </ul>
+      </li>
+
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">locate us <strong class="caret"></strong></a>
+
+        <ul class="dropdown-menu">
+         <li>
+          <a href="#">Service centre</a>
+        </li>
+
+        <li>
+          <a href="#">Book a ride</a>
+        </li>
+
+        <li>
+          <a href="#">Dealers</a>
+        </li>
+      </ul>
     </li>
 
-    <li class="dropdown">
-      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Motorcycles <strong class="caret"></strong></a>
 
-      <ul class="dropdown-menu">
-       <li>
-        <a href="#">Classic battle green</a>
-      </li>
-
-      <li>
-        <a href="#">Classic 350</a>
-      </li>
-
-      <li>
-        <a href="#">Class 500</a>
-      </li>
-
-      <li class="divider"></li>
-
-      <li class="dropdown-header">Standard</li>
-
-      <li>
-        <a href="#">Standard 350</a>
-      </li>
-
-      <li>
-        <a href="#">standard 500</a>
-      </li>
-    </ul>
-  </li>
-
-  <li class="dropdown">
-    <a href="#" class="dropdown-toggle" data-toggle="dropdown">locate us <strong class="caret"></strong></a>
-
-    <ul class="dropdown-menu">
-     <li>
-      <a href="#">Service centre</a>
-    </li>
-
-    <li>
-      <a href="#">Book a ride</a>
-    </li>
-
-    <li>
-      <a href="#">Dealers</a>
-    </li>
-  </ul>
-</li>
-
-
-<li class="dropdown">
- <a href="#" class="dropdown-toggle" data-toggle="dropdown">Support <strong class="caret"></strong></a>
-
- <ul class="dropdown-menu">
-  <li>
-   <a href="#">Owners manual</a>
+    
+ <li >
+   <a href="gallery.html">Gallery</a>
  </li>
-
- <li>
-   <a href="#">Roadside assistance</a>
- </li>
-
- <li>
-   <a href="#">Contact us</a>
- </li>
-</ul>
-</li>
-<li >
-  <a href="index2.html">Gallery</a>
-</li>
 
 </ul>
 
 
 
-<form class="navbar-form pull-right">
+<form class="navbar-form navbar-right">
  <input type="text" class="form-control" placeholder="Search this site..." id="searchInput">
  <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
 </form>
@@ -122,83 +99,165 @@
 
 </div><!-- end nav-things -->
 </div><!-- end container -->
-</div><!-- end nav-bar -->
-<div class="container panels">
-  <div class="row  " id="features">
-   <div class="col-sm-4 feature">
-    <div class="panel">
-     <div class="panel-heading">
-      <h3 class="panel-title">classic 350cc</h3>
-    </div><!-- end panel-heading -->
-    <img src="images/bullet11.jpg" alt="images not found" class="img-circle img-responsive">
+</nav><!-- end nav-bar -->
+</header>
 
 
 
-  </div><!-- end panel -->
+
+<div class="carousel slide " id="myCarousel">
+  <ul class="carousel-indicators">
+   <li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+   <li data-slide-to="1" data-target="#myCarousel"></li>
+   <li data-slide-to="2" data-target="#myCarousel"></li>
+ </ul>
+
+ <div class="carousel-inner">
+   <div class="item active" id="slide1">
+     <div class="carousel-caption">
+       <h4>Royal Enfield</h4>
+       <p>Made like a gun</p>
+     </div><!-- end carousel-caption -->
+   </div><!-- end slide1 -->
+
+   <div class="item" id="slide2">
+     <div class="carousel-caption">
+      <h4>Royal Enfield</h4>
+      <p >Heritage and Horsepower</p>
+    </div><!-- end carousel-caption -->
+  </div><!-- end slide2 -->
+
+  <div class="item" id="slide3">
+   <div class="carousel-caption">
+    <h4>Royal Enfield</h4>
+    <p>Built for all roads</p>
+  </div><!-- end carousel-caption -->
+</div><!-- end slide3 -->
+</div><!-- end carousel-inner -->
+<a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
+<a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
+
+</div><!-- end my-carousel -->
+
+<div class="container" >
+  <div class="row" id="bigCallout">
+   <div class="col-12">
+
+    <div class="well">
+     <div class="page-header">
+      <h1>Royal Enfield's 600-650cc<small>  Coming soon  </small></h1>
+    </div>
+
+    <p class="google-fonts"  >It is certainly a good time to be a Royal Enfield fanatic as the cult motorcycle brand has been redefining its niche one product at a time. After the bold attempt at bringing back cafe racers with the Continental GT and building India's first mass produced adventure tourer - Himalayan, the Eicher Motors owned manufacturer now plans to make its entry in the mid-size motorcycle segment to rival big names like Harley-Davidson, Triumph and the likes. Interestingly, the wait for the big RE won't be long as the bike will be launched as early as next year.</p>
+
+    <a href="" class="btn btn-large btn-primary" >click here</a>
+    <a href="" class="btn btn-large btn-link">to know more</a>
+  </div><!-- end well -->
+</div><!-- end col-12 -->
+</div><!-- end bigCallout -->
+
+
+
+
+<div class="row" id="featuresHeading">
+ <div class="col-12">
+  <h2>Royal Enfield types</h2>
+  <p class="google-fonts">Royal Enfield was the brand name under which the Enfield Cycle Company (founded 1893) owned by Eicher_Motors  </p>
+</div><!-- end col-12 -->
+</div><!-- end featuresHeading -->
+
+
+<div class="row" id="features">
+ <div class="col-sm-4 feature">
+  <div class="panel">
+   <div class="panel-heading">
+    <h3 class="panel-title">continental</h3>
+  </div><!-- end panel-heading -->
+  <img src="images/bullet1.jpg" alt="images not found" class="img-circle img-responsive center-block">
+
+  <p class="google-fonts"> Straight modern blast from the past seems an anachronism but it best illustrates how well Royal Enfield has conjured up its first all-new motorcycle in over 60 years! Adil Jal Darukhanawala swings a leg aboard one of the very first of these biggest</p>
+
+  <a href="#"  class="btn btn-warning btn-block"> go with continental</a>
+</div><!-- end panel -->
 </div><!-- end-sm-4feature -->
 
 <div class="col-sm-4 feature">
  <div class="panel">
   <div class="panel-heading">
-   <h3 class="panel-title">classic 500cc</h3>
+   <h3 class="panel-title">himalayan</h3>
  </div><!-- end panel-heading -->
- <img src="images/bullet12.jpg" alt="image not found" class="img-circle img-responsive">
+ <img src="images/bullet2.jpg" alt="image not found" class="img-circle img-responsive center-block">
 
+ <p class="google-fonts">The Himalayan is easily the most anticipated motorcycle from Royal Enfield given its positioning as an adventure touring motorcycle. We tell you all there is about the new motorcycle, after a day behind its bars in the most challenging of terrains.</p>
 
+ <a href="#"  class="btn btn-danger btn-block">go with himalaya</a>
 </div><!-- end panel -->
 </div><!-- end  col-sm-4 feature -->
 
 <div class="col-sm-4 feature">
  <div class="panel">
   <div class="panel-heading">
-   <h3 class="panel-title">classic chrome </h3>
+   <h3 class="panel-title">thunderbird</h3>
  </div><!-- end panel-heading -->
- <img src="images/bullet13.jpg" alt="image not found" class="img-circle img-responsive">
+ <img src="images/bullet3.jpg" alt="image not found" class="img-circle img-responsive center-block">
 
+ <p class="google-fonts">Royal Enfield's latest flagship model is out, and no it's not a Classic, but the all new Thunderbird 500. But does this retro cruiser have what it takes to bear the Enfield standard high and proud? We spend some long hours in the saddle.
+ </p>
 
-
+ <a href="#"  class="btn btn-info btn-block">go with thunderbird</a>
 </div><!-- end panel -->
 </div><!-- end col-sm-4 feature -->
 </div><!-- end row -->
-</div><!-- end container -->
 
-<div class="container panels-1">
-  <div class="row  " id="features">
-   <div class="col-sm-4 feature">
-    <div class="panel">
-     <div class="panel-heading">
-      <h3 class="panel-title">classic desert</h3>
-    </div><!-- end panel-heading -->
-    <img src="images/bullet14.jpg" alt="images not found" class="img-circle img-responsive">
-
-
-
-  </div><!-- end panel -->
-</div><!-- end-sm-4feature -->
-
-<div class="col-sm-4 feature">
- <div class="panel">
-  <div class="panel-heading">
-   <h3 class="panel-title">Standard 350cc</h3>
- </div><!-- end panel-heading -->
- <img src="images/bullet15.jpg" alt="image not found" class="img-circle img-responsive">
+<div class="row" id="engineInfo">
+ <div class="col-sm-6">
+  <h2>Latest technology</h2>
+  <div class="tabbable">
+   <ul class="nav nav-tabs">
+    <li class="active"><a href="#tab1" data-toggle="tab">Section1</a></li>
+    <li><a href="#tab2" data-toggle="tab">Section2</a></li>
+  </ul>
+  <div class="tab-content">
+    <div class="tab-pane active" id="tab1">
+     <h4>Diesel engine RoyalEnfield coming soon</h4>
+     <img src="images/engine.jpg"  class="pull-left img-responsive"alt="image not found">
+     <p class="google-fonts">This new engine is the first of its kind developed by Royal Enfield, helping it achieve its sales targets of 5,00,000 bikes per year. This will help Royal Enfield tackle new rivals and break into more lucrative segments like the retro bike segment currently dominated by Bonneville and Thruxton from Triumph.The Royal Enfield 750cc bike was spotted testing on a crudely lengthened Continental GT frame to fit the larger engine. Here the bike sported carburetors which is in tune with India’s emission standards, so the bike will make to India for sure. Focusing on the Indian market rather than the European market which has Euro 4 emission standards is natural, as Royal Enfield pushes more sales number in its domestic market than on foreign shores.</p>
+   </div><!-- end tab1 -->
 
 
-</div><!-- end panel -->
-</div><!-- end  col-sm-4 feature -->
+   <div class="tab-pane" id="tab2">
+     <h4>Twin cylindrical bike launch in 2017</h4>
+     <img src="images/cylindricalBike.jpg" class="pull-left img-responsive" alt="image not found">
+     <p class="google-fonts">It is certainly a good time to be a Royal Enfield fanatic as the cult motorcycle brand has been redefining its niche one product at a time. After the bold attempt at bringing back cafe racers with the Continental GT and building India's first mass produced adventure tourer - Himalayan, the Eicher Motors owned manufacturer now plans to make its entry in the mid-size motorcycle segment to rival big names like Harley-Davidson, Triumph and the likes. Interestingly, the wait for the big RE won't be long as the bike will be launched as early as next year.The Royal Enfield 750cc bike was spotted testing on a crudely lengthened Continental GT frame to fit the larger engine. Here the bike sported carburetors which is in tune with India’s emission standards, so the bike will make to India for sure. Focusing on the Indian market rather than the European market which has Euro 4 emission standards is natural, as Royal Enfield pushes more sales number in its domestic market than on foreign shores.
+     </p>
+   </div><!-- end tab2 -->
 
-<div class="col-sm-4 feature">
- <div class="panel">
-  <div class="panel-heading">
-   <h3 class="panel-title">Bullet Electra</h3>
- </div><!-- end panel-heading -->
- <img src="images/bullet16.jpg" alt="image not found" class="img-circle img-responsive">
+ </div><!-- end tab-content -->
+</div><<!-- end tabbable -->
+</div><!-- end col-sm-6 -->
+
+<div class="col-sm-6">
+ <h2>Latest Update</h2>
 
 
 
-</div><!-- end panel -->
-</div><!-- end col-sm-4 feature -->
-</div><!-- end row -->
+ <div class="list-group">
+  <a href="#" class="list-group-item">
+   <h4 class="list-group-item-heading">Royal Enfield Opens New Store in Ireland</h4>
+   <p class="list-group-item-text google-fonts">Iconic motorcycle manufacturer Royal Enfield has opened its first dealership in Ireland. The dealership is a partnership with Co Limerick-based RetroVentures. Royal Enfield already has a good image in Ireland, thanks to RetroVentures, which has been hiring out Royal Enfield motorcycles for over two years</p>
+ </a>
+ <a href="#" class="list-group-item">
+   <h4 class="list-group-item-heading">
+    Royal Enfield Takes 5th Position in Motorcycle Sales</h4>
+    <p class="list-group-item-text google-fonts">Royal Enfield has climbed into the list of top 5 motorcycle manufacturers in India, on the back of stupendous growth. And in the process, Royal Enfield has overtaken Yamaha India, which now sits at 6th position. In the financial year 2015-16, Royal Enfield sold 4,98,791 units</p>
+  </a>
+  <a href="#" class="list-group-item">
+    <h4 class="list-group-item-heading">Royal Enfield Opens Stores in Paris </h4>
+    <p class="list-group-item-text google-fonts">Royal Enfield announced the opening of its first exclusive stores in the city of Madrid and Paris. The new stores in these countries is a part of Royal Enfield's growth strategy in Europe and focused international thrust of leading and expanding the global mid-sized motorcycle segment </p>
+  </a>
+</div><!-- list-group -->
+</div><!-- end col-sm-6 -->
+</div><!-- end engineInfo -->
 </div><!-- end container -->
 
 
@@ -244,6 +303,12 @@
 </div><!-- end row -->
 </div><!-- end container -->
 </footer>
+<script src="includes/js/modernizr-2.6.2.min.js"></script>
+  <script src="http://code.jquery.com/jquery.js"></script>    
+  
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+  <script src="includes/js/script.js"></script>
 </body>
 </html>
+
 
